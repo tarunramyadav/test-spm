@@ -22,12 +22,7 @@ let package = Package(
     targets: [
         .target(
             name: "AdjoeAntiFraud",
-            path: "src",
-            publicHeadersPath: "."
+            path: "Sources/AdjoeAntiFraud"
         ),
-        .testTarget(
-            name: "AdjoeAntiFraudTests",
-            dependencies: ["AdjoeAntiFraud"]
-        )
     ]
 )
