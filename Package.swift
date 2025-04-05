@@ -22,7 +22,7 @@ let package = Package(
     targets: [
         .target(
             name: "AdjoeAntiFraud",
-            path: "Sources/AdjoeAntiFraud"
+            path: "Sources"
         ),
     ]
 )
